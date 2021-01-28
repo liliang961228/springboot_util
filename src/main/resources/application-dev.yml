@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     druid:
-      url: jdbc:mysql://223.71.251.57:24331/bjwkk?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useSSL=false&useCursorFetch=true&defaultFetchSize=500&allowMultiQueries=true&useUnicode=true&characterEncoding=utf-8
-      username: root
-      password: 5t6y7u$%^&
+      url: jdbc:mysql://***?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useSSL=false&useCursorFetch=true&defaultFetchSize=500&allowMultiQueries=true&useUnicode=true&characterEncoding=utf-8
+      username: 
+      password: 
       driverClassName: com.mysql.cj.jdbc.Driver
       type: com.alibaba.druid.pool.DruidDataSource
       # 初始化配置
