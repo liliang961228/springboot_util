@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wkk.demo</groupId>
-    <artifactId>springboot_demo</artifactId>
+    <artifactId>springboot_util</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot_demo</name>
     <description>创建一个springboot项目</description>
@@ -122,6 +122,20 @@
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.9.6</version>
+        </dependency>
+
+        <!-- 引入elastic-job-lite核心模块 -->
+        <dependency>
+            <groupId>com.dangdang</groupId>
+            <artifactId>elastic-job-lite-core</artifactId>
+            <version>2.1.5</version>
+        </dependency>
+
+        <!-- 使用springframework自定义命名空间时引入 -->
+        <dependency>
+            <groupId>com.dangdang</groupId>
+            <artifactId>elastic-job-lite-spring</artifactId>
+            <version>2.1.5</version>
         </dependency>
     </dependencies>
 
