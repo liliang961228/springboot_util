@@ -1,16 +1,6 @@
-package com.wkk.wkkbjsb.business.utils.httpClient;
+package com.wkk.wkkbjsb.business.httpClient;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.exception.ExceptionUtils;
-import org.apache.http.client.methods.*;
-import org.apache.http.conn.ssl.TrustStrategy;
-
-import org.apache.http.ssl.SSLContexts;
-
-import javax.net.ssl.SSLContext;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
 
 /**
  * @author : ligengying

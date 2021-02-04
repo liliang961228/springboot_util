@@ -1,4 +1,4 @@
-package com.wkk.wkkbjsb.business.utils.httpClient;
+package com.wkk.wkkbjsb.business.httpClient;
 
 /**
  * @author : ligengying
