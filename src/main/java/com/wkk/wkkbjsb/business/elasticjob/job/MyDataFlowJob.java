@@ -3,9 +3,11 @@ package com.wkk.wkkbjsb.business.elasticjob.job;
 import com.dangdang.ddframe.job.api.ShardingContext;
 import com.dangdang.ddframe.job.api.dataflow.DataflowJob;
 import lombok.extern.slf4j.Slf4j;
+import org.aspectj.weaver.ast.Var;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.StringJoiner;
 
 /**
  * @author : ligengying
@@ -17,6 +19,7 @@ import java.util.List;
 
 @Slf4j
 public class MyDataFlowJob implements DataflowJob<String> {
+
 
     private boolean flag = false;
 
